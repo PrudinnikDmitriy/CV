@@ -1,0 +1,273 @@
+body{
+    color: #414042;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+
+}
+ul{
+    padding: 0px;
+}
+.container{
+    max-width: 613px;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.aside__avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aside__avatar img{
+    width: 102px;
+    height: 102px;
+}
+.aside__avatar h1{
+    margin: 0px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.aside__avatar p{
+    font-size: 8px;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+.aside__skils{
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aside__wrapper{
+    background-color: #B4D9ED;
+}
+.aside__title{
+    margin-bottom: 17px;
+    padding: 10px 40px 10px 40px;
+    color: #FFFF;
+    background-color: #414042;
+    text-transform: uppercase;
+}
+.aside__skils li{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 17px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.aside__skils ul{
+    padding-left: 31px;
+    padding-right: 31px;
+}
+.aside__inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aside__inner p{
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+.aside__circle{
+    display: flex;
+    flex-direction: row;
+}
+.location::before{
+    font-family: 'FontAwesome';
+    padding-right: 8px;
+    font-size: 12px;
+    content: '\f3c5';
+}
+.tel::before{
+    font-family: 'FontAwesome';
+    padding-right: 8px;
+    font-size: 12px;
+    content: '\f095';
+}
+.email::before {
+    font-family: 'FontAwesome';
+    padding-right: 8px;
+    font-size: 12px;
+    content: '\f0e0';
+}
+.site::before {
+    font-family: 'FontAwesome';
+    padding-right: 8px;
+    font-size: 12px;
+    content: '\f0ac';
+}
+.face::before {
+    font-family: 'FontAwesome';
+    padding-right: 8px;
+    font-size: 12px;
+    content: '\f09a';
+}
+.twit::before {
+    font-family: 'FontAwesome';
+    padding-right: 8px;
+    font-size: 12px;
+    content: '\f099';
+}
+.behanse::before {
+    font-family: 'FontAwesome';
+    padding-right: 8px;
+    font-size: 12px;
+    content: '\f1b4';
+}
+.youtybe::before {
+    font-family: 'FontAwesome';
+    padding-right: 8px;
+    font-size: 12px;
+    content: '\f167';
+}
+.circle{
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 6px 6px;
+    border-radius: 50%;
+    background-color: #414042;
+}
+.circle-wite{
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 6px 6px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+.circle-grey{
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 6px 6px;
+    border-radius: 50%;
+    background-color: #D1D3D4;
+}
+.aside__hob{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hob{
+    width: 50%;
+}
+.content{
+    margin-left: 45px;
+}
+.content__wrapper img{
+    margin-right: 11px;
+    width: 22px;
+    height: 22px;
+}
+.content__wrapper{
+    margin-bottom: 45px;
+}
+.content__title{
+    padding-bottom: 30px;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.content__title h4{
+    width: 100%;
+    border-bottom: 1px solid #333132;
+}
+.content__wrapper p{
+    font-size: 10px;
+    color: #787879;
+}
+.content__inner{
+    margin-top: 15px;
+}
+.content__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.content__item p{
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+.content__name{
+    font-size: 11px;
+}
+.content__name::before{
+    content: ">";
+    padding-right: 10px;
+}
+.content__data{
+    font-size: 10px;
+}
+.content__inner p{
+    font-size: 8px;
+}
+.content__skils{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content__skils ul:nth-child(1){
+    padding-right: 20px;
+}
